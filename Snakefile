@@ -13,5 +13,5 @@ rule touch:
     params:
         a = config["sample_group"]["key1"]
     run:
-        cmd = "touch {output}"
-        shell(cmd)
+        with open(str(output), 'w') as fp:
+            pass
