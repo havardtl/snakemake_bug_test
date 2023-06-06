@@ -3,6 +3,7 @@
 Repository for reproducing bug in snakemake when running in folder with space. 
 
 Operating system: WSL (Ubuntu 22.04.2 LTS) in Windows 11
+
 snakemake version: 7.26.0
 
 Running ```snakemake --cores 1``` exits with error as it cannot find the config file. Complete log:
